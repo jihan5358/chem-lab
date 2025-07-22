@@ -44,7 +44,19 @@ const reactionData = {
   'KI+Pb(NO3)2': {
     text: '노란색 침전 생성 (PbI2)',
     image: 'yellow_precipitate.png'
-  }
+  },
+   'AgNO3+NH3': {
+    text: '착이온 형성 ([Ag(NH₃)₂]⁺), 투명 용액',
+    image: 'transparent_complex.png'
+  },
+   'H2SO4+Pb(NO3)2': {
+    text: '흰색 침전 생성 (PbSO₄)',
+    image: 'white_precipitate(3).png'
+  },
+  'NaCl+Pb(NO3)2': {
+    text: '흰색 침전 생성 (PbCl₂)',
+    image: 'white_precipitate(4).png'
+  },
 };
 
 export default function ChemistryLab() {
